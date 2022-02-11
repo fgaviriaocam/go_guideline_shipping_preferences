@@ -1,0 +1,1 @@
+# go_guideline_shipping_preferences
