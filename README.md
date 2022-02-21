@@ -55,6 +55,8 @@ Si necesitas añadir etiquetas o descripciones debajo de los ejemplos de código
 	- [Estilo](#estilo)
 		- [Agrupar importaciones](#agrupar-importaciones)
 		- [Ordenamiento de importaciones](#ordenamiento-de-importaciones)
+		- [Nombre de paquetes](#nombre-de-paquetes)
+		- [Nombres de funciones](#nombres-de-funciones)
 
 
 ## Estilo
@@ -191,3 +193,8 @@ import (
 
 </td></tr>
 </tbody></table>
+
+
+### Nombre de paquetes
+
+### Nombres de funciones
