@@ -197,4 +197,40 @@ import (
 
 ### Nombre de paquetes
 
+Los buenos nombres de paquetes son breves y claros. Son minúsculas, sin under_score o mixedCaps. A menudo son sustantivos simples.
+
+El estilo de nombres típico de otro idioma puede no ser idiomático en un programa Go. Aquí hay dos ejemplos de nombres que pueden tener un buen estilo en otros idiomas pero que no encajan bien en Go.
+
+<table>
+<thead><tr><th>Incorrecto</th><th>Correcto</th></tr></thead>
+<tbody>
+<tr><td>
+
+
+```go
+package computeServiceClient
+```
+
+```go
+package priority_queue
+```
+
+
+</td><td>
+
+```go
+package time
+```
+
+```go
+package list
+```
+
+```go
+package http
+```
+
+</td></tr>
+</tbody></table>
+
 ### Nombres de funciones
