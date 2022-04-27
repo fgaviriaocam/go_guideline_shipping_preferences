@@ -57,13 +57,13 @@ Si necesitas añadir etiquetas o descripciones debajo de los ejemplos de código
 		- [Ordenamiento de importaciones](#ordenamiento-de-importaciones)
 		- [Nombre de paquetes](#nombre-de-paquetes)
 		- [Nombres de funciones](#nombres-de-funciones)
-		- [Importar alias]
-		- [Agrupación y orden de funciones]
-		- [Reducir el anidamiento]
-		- [Declaraciones de variables de nivel superior]
-		- [Incrustación en estructuras]
-		- [Declaraciones de variables locales]
-		- [nil es un segmento válido]
+		- [Importar alias](#nombres-de-funciones)
+		- [Agrupación y orden de funciones](#nombres-de-funciones)
+		- [Reducir el anidamiento](#nombres-de-funciones)
+		- [Declaraciones de variables de nivel superior](#nombres-de-funciones)
+		- [Incrustación en estructuras](#nombres-de-funciones)
+		- [Declaraciones de variables locales](#nombres-de-funciones)
+		- [nil es un segmento válido](#nombres-de-funciones)
 
 
 
