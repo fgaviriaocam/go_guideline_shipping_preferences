@@ -340,7 +340,7 @@ for _, v := range data {
 
 ### Declaraciones de variables locales
 
-```go := ``` Deben usarse declaraciones de variables cortas ( ) si una variable se establece explícitamente en algún valor.
+``` := ``` Deben usarse declaraciones de variables cortas ( ) si una variable se establece explícitamente en algún valor.
 
 
 <table>
