@@ -61,7 +61,7 @@ Si necesitas añadir etiquetas o descripciones debajo de los ejemplos de código
 		- [Agrupación y orden de funciones](#nombres-de-funciones)
 		- [Reducir el anidamiento](#nombres-de-funciones)
 		- [Declaraciones de variables locales](#nombres-de-funciones)
-		- [nil es un segmento válido](#nombres-de-funciones)
+		- [Nil es un segmento válido](#nombres-de-funciones)
 
 
 
@@ -357,6 +357,33 @@ var s = "foo"
 
 ```go
 s := "foo"
+```
+
+</td></tr>
+</tbody></table>
+
+### Nil es un segmento válido
+
+``` nil ``` es un segmento válido de longitud 0. Esto significa que, no debe devolver un segmento de longitud cero explicito. Utilicemos nil.
+
+<table>
+<thead><tr><th>Incorrecto</th><th>Correcto</th></tr></thead>
+<tbody>
+<tr><td>
+
+
+```go
+if x == "" {
+  return []int{}
+}
+```
+
+</td><td>
+
+```go
+if x == "" {
+  return nil
+}
 ```
 
 </td></tr>
