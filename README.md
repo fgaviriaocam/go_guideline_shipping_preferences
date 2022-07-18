@@ -60,8 +60,6 @@ Si necesitas añadir etiquetas o descripciones debajo de los ejemplos de código
 		- [Importar alias](#nombres-de-funciones)
 		- [Agrupación y orden de funciones](#nombres-de-funciones)
 		- [Reducir el anidamiento](#nombres-de-funciones)
-		- [Declaraciones de variables de nivel superior](#nombres-de-funciones)
-		- [Incrustación en estructuras](#nombres-de-funciones)
 		- [Declaraciones de variables locales](#nombres-de-funciones)
 		- [nil es un segmento válido](#nombres-de-funciones)
 
@@ -335,6 +333,30 @@ for _, v := range data {
   }
   v.Success()
 }
+```
+
+</td></tr>
+</tbody></table>
+
+### Declaraciones de variables locales
+
+:=Deben usarse declaraciones de variables cortas ( ) si una variable se establece explícitamente en algún valor.
+
+
+<table>
+<thead><tr><th>Incorrecto</th><th>Correcto</th></tr></thead>
+<tbody>
+<tr><td>
+
+
+```go
+var s = "foo"
+```
+
+</td><td>
+
+```go
+s := "foo"
 ```
 
 </td></tr>
