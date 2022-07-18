@@ -242,3 +242,51 @@ package http
 </tbody></table>
 
 ### Nombres de funciones
+
+Recordes que las funciones que inician en mayuscula son funciones que son publicas, las funciones que inician en minuscula son funciones privadas, sin embargo para escribir el nombre la función esta debe ser muy descriptiva.
+
+<table>
+<thead><tr><th>Incorrecto</th><th>Correcto</th></tr></thead>
+<tbody>
+<tr><td>
+
+
+```go
+func GetA
+```
+
+</td><td>
+
+```go
+func GetLogisticAttributes
+```
+
+</td></tr>
+</tbody></table>
+
+### Importar alias
+
+Se deben usar alias de importación si el nombre del paquete no coincide con el último elemento de la ruta de importación.
+
+<table>
+<thead><tr><th>Incorrecto</th><th>Correcto</th></tr></thead>
+<tbody>
+<tr><td>
+
+
+```go
+import (
+   "github.com/mercadolibre/shipping-items-api/src/api/apperror56shipping"
+)
+```
+
+</td><td>
+
+```go
+import (
+    errors "github.com/mercadolibre/shipping-items-api/src/api/apperror56shipping"
+)
+```
+
+</td></tr>
+</tbody></table>
