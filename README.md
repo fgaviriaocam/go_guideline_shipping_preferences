@@ -290,3 +290,52 @@ import (
 
 </td></tr>
 </tbody></table>
+
+
+### Agrupación y orden de funciones
+
+
+### Reducir el anidamiento
+
+El código debe reducir el anidamiento cuando sea posible al manejar primero los casos de error/condiciones especiales y regresar temprano o continuar el ciclo. Reduzca la cantidad de código anidado en varios niveles.
+
+<table>
+<thead><tr><th>Incorrecto</th><th>Correcto</th></tr></thead>
+<tbody>
+<tr><td>
+
+
+```go
+for _, v := range data {
+  if v.Example == 1 {
+    v = execute(v)
+    if err := v.Func(); err == nil {
+      v.Success()
+    } else {
+      return err
+    }
+  } else {
+    log.Printf("Invalid v: %v", v)
+  }
+}
+```
+
+</td><td>
+
+```go
+for _, v := range data {
+  if v.Example != 1 {
+    log.Printf("Invalid v: %v", v)
+    continue
+  }
+
+  v = execute(v)
+  if err := v.Func(); err != nil {
+    return err
+  }
+  v.Success()
+}
+```
+
+</td></tr>
+</tbody></table>
