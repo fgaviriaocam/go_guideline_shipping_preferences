@@ -58,7 +58,6 @@ Si necesitas añadir etiquetas o descripciones debajo de los ejemplos de código
 		- [Nombre de paquetes](#nombre-de-paquetes)
 		- [Nombres de funciones](#nombres-de-funciones)
 		- [Importar alias](#importar-alias)
-		- [Agrupación y orden de funciones](#agrupación-y-orden-de-funciones)
 		- [Reducir el anidamiento](#reducir-el-anidamiento)
 		- [Declaraciones de variables locales](#declaraciones-de-variables-locales)
 		- [Nil es un segmento válido](#nil-es-un-segmento-válido)
@@ -288,9 +287,6 @@ import (
 
 </td></tr>
 </tbody></table>
-
-
-### Agrupación y orden de funciones
 
 
 ### Reducir el anidamiento
