@@ -65,10 +65,9 @@ Si necesitas añadir etiquetas o descripciones debajo de los ejemplos de código
 
 
 ## Estilo
-El código consistente es sencillo de mantener, sencillo de comprender. Se consistente en el código, permitirá que las personas entiendan como funciona el programa;cuando se lee código consistente, subconcientemente uno se forma un número de supuestos y expectativas acerca del funcionamiento del código, de esta forma es más fácil y seguro realizarle modificaciones. 
+El código consistente es sencillo de mantener, sencillo de comprender. Ser consistente en el código, permitirá que las personas entiendan como funciona el programa;cuando se lee código consistente, subconcientemente uno se forma un número de supuestos y expectativas acerca del funcionamiento del código, de esta forma es más fácil y seguro realizarle modificaciones. 
 
-Alguna de las directrices recogidas en este documente pueden ser tratadas de manera objetiva; sin embargo otras son 
-situacionales, contextuales o subjetivas.
+Alguna de las directrices recogidas en este documento son estandares levantados por el bloque de shipping & preferences
 
 ### Agrupar importaciones
 
